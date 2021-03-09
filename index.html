@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <main id = "main">
+      <header id = "header">
+        <h1 id = "title" style = "text-align:center">Alan's Survey Form</h1>
+        <p id = "description" style = "text-align:center">Thank you for taking the time to fill out our form!</p>
+      </header>
+
+      <div id = "box" class = "color">
+        <form action="index.html" method="post">
+          <div id="survey-form">
+
+          <label for="fname" class ="form-label" id = "name-label">Name</label>
+          <input type="text" class = "form-styling" name="name" id = "name" placeholder="Enter your name" required>
+
+          <label for="fname" class ="form-label" id = "email-label">Email</label>
+          <input type="email" class = "form-styling" name="email" id = "email" placeholder="Enter our email" required>
+
+          <label for="age" class = "form-label" id = "number-label">Age</label>
+          <input type="text" class = "form-styling" name="age" placeholder="Enter you age (optional)">
+
+          <label for="role" class ="form-label">What would you say is your current role?</label>
+          <select name="role" class ="form-styling" style = "height:27px;" id ="role">
+          <option value="Student">Student</option>
+          <option value="Part-time">Part-time</option>
+          <option value="Full-time">Full-time</option>
+          <option value="Independent learner">Independent learner</option>
+          <option value="None of you business">None of your business</option>
+          <option value="Other">Other</option>
+          </select>
+
+          <div id = "soccer-opinion" class = "form-label">
+          <p style="margin-bottom: 0px">Do you like to play soccer?</p>
+          <input type="radio" id="yes" name="opinion" value="YES!">
+          <label for="male">YES!</label><br>
+          <input type="radio" id="no" name="opinion" value="No">
+          <label for="female">No</label><br>
+          <input type="radio" id="Meh" name="opinion" value="Meh">
+          <label for="other">Meh</label>
+          </div>
+
+          <label for="activity" class="form-label">What is your favorite form of physical activity?</label>
+          <select name="activity" class = "form-styling" style="height:27px;" id ="activity">
+          <option value="Soccer">Soccer</option>
+          <option value="Baseball">Baseball</option>
+          <option value="Hiking">Hiking</option>
+          <option value="Walking">Walking</option>
+          <option value="Canoeing">Canoeing</option>
+          <option value="None">I hate excercise</option>
+          </select>
+
+          <p style = "margin-bottom: 10px; font-size:24px;">What kind of vehicle do you have?</p>
+          <label class ="checkbox"><input type="checkbox" class = "checkbox-size" name="vehicle1" value="Bike"> I have a bike</label>
+          <label class = "checkbox"><input type="checkbox" class ="checkbox-size" name="vehicle2" value="Car"> I have a car</label>
+          <label class = "checkbox"><input type="checkbox" class = "checkbox-size" name="vehicle3" value="Motorcycle"> I have a motorcycle</label>
+          <label class = "checkbox"><input type="checkbox" class = "checkbox-size" name="vehicle4" value="Plane"> I have a plane</label>
+
+          <label for="comments" class = "form-label">Hows your day going?</label>
+          <textarea class = "form-styling textarea-styling" name= "comments" rows="8" cols="80" placeholder="I hope its been good :)"></textarea>
+          <input class = "form-styling" type="submit" value="Submit" id = "submit">
+
+
+          </div>
+        </form>
+      </div>
+
+  </main>
+
+  </body>
+</html>

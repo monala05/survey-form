@@ -1,0 +1,57 @@
+#main{
+  font-family: cursive;
+}
+
+#title{
+  padding-top: 1em;
+  margin-bottom: 0px;
+}
+
+#box{
+  display:flex;
+  justify-content: center;
+  margin: 2em 20em 30em 20em;
+  padding: 2em;
+  background-color: rgba(60,90,46,40%);
+}
+
+#survey-form{
+  display: flex;
+  flex-direction: column;
+}
+
+#soccer-opinion{
+  line-height: 1.5;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.checkbox{
+  font-size: 24px;
+}
+
+.checkbox-size{
+  height: 25px;
+  width: 25px;
+
+}
+.color{
+   color: white;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.form-label{
+  line-height: 2;
+  font-size: 24px;
+}
+
+.form-styling{
+  line-height: 2;
+  border-radius: 5px;
+  border: none;
+}
+.textarea-styling{
+  resize: vertical;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
